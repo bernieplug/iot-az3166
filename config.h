@@ -1,6 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
-// Licensed under the MIT license. 
-
+// Set temperature and Humidity above which alert need to be send
 // Interval time(ms) for sending message to IoT Hub
 #define INTERVAL 2000
 
