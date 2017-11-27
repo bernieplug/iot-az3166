@@ -1,7 +1,4 @@
 
-// Copyright (c) Microsoft. All rights reserved.
-// Licensed under the MIT license. 
-// To get started please visit https://microsoft.github.io/azure-iot-developer-kit/docs/projects/connect-iot-hub?utm_source=ArduinoExtension&utm_medium=ReleaseNote&utm_campaign=VSCode
 #include "AzureIotHub.h"
 #include "AZ3166WiFi.h"
 #include "config.h"
@@ -39,8 +36,6 @@ void setup()
         return;
     }
     
-    // Microsoft collects data to operate effectively and provide you the best experiences with our products. 
-    // We collect data about the features you use, how often you use them, and how you use them.
     send_telemetry_data_async("", "HappyPathSetup", "");
 
     Serial.begin(115200);
