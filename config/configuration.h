@@ -1,5 +1,6 @@
 // Set temperature and Humidity above which alert need to be send
 // Interval time(ms) for sending message to IoT Hub
+
 #define INTERVAL 2000
 
 #define MESSAGE_MAX_LEN 256
