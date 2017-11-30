@@ -1,9 +1,9 @@
 
 #include "AzureIotHub.h"
 #include "AZ3166WiFi.h"
-#include "config.h"
+#include "configuration.h"
 #include "utility.h"
-#include "iothub_client_sample_mqtt.h"
+#include "iothubclientsample.h"
 #include "Telemetry.h"
 
 static bool hasWifi = false;
