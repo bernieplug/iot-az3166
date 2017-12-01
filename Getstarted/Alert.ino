@@ -1,4 +1,3 @@
-
 #include "AzureIotHub.h"
 #include "AZ3166WiFi.h"
 #include "configuration.h"
@@ -46,7 +45,7 @@ void setup()
 void loop()
 {
     char messagePayload[MESSAGE_MAX_LEN];
-    bool temperatureAlert = readMessage(messageCount, messagePayload);
+    bool temperatureAlert = readMessage(messageCount,messagePayload);
     bool humidityAlert;
     iothubSendMessage((const unsigned char *)messagePayload, temperatureAlert,humidityAlert);
     iothubLoop();
