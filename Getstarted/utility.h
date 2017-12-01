@@ -8,4 +8,4 @@ void blinkLED(void);
 void blinkSendConfirmation(void);
 int getInterval(void);
 
-#endif /* UTILITY_H */
+#endif 
