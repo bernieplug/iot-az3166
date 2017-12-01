@@ -36,7 +36,6 @@ void setup()
     }
     
     send_telemetry_data_async("", "HappyPathSetup", "");
-
     Serial.begin(115200);
     sensorInit();
     iothubInit();
