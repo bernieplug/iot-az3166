@@ -1,0 +1,8 @@
+{
+    "azureCliLocation": "C:\\Program Files (x86)\\Microsoft SDKs\\Azure\\CLI2\\wbin\\az.cmd",
+    "iotHubName": "devkit-sim",
+    "subscription": "c51ddce1-6ed6-438a-b34b-136418efcff0",
+    "resourceGroup": "devkit-sim-test",
+    "deviceConnectionString": "HostName=devkit-sim.azure-devices.net;DeviceId=AZ3166;SharedAccessKey=Och/qQZoIJ1aymCEzbHousYFqwPPp0SNZ2FMai/kLGs=",
+    "deviceId": "AZ3166"
+}
