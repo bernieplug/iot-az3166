@@ -3,7 +3,7 @@
 #include "config.h"
 #include "utility.h"
 #include "EEPROMInterface.h"
-#include "iothub_client_sample_mqtt.h"
+#include "iothubclientsample.h"
 #include <ArduinoJson.h>
 
 static IOTHUB_CLIENT_LL_HANDLE iotHubClientHandle;
