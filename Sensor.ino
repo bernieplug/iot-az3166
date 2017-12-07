@@ -1,8 +1,6 @@
-#include "Arduino.h";
+include "Arduino.h";
 
 #include "HTS221Sensor.h"
-
-
 
 DevI2C *extI2C;
 
@@ -11,8 +9,6 @@ HTS221Sensor *htSensor;
 float temperature;
 
 float humidity;
-
-
 
 void setup()
 
@@ -45,7 +41,6 @@ void loop()
     Serial.print("Humidity: ");
 
     Serial.println(humidity);
-
 
 
     delay(5000);
