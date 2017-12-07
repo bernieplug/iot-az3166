@@ -66,7 +66,6 @@ float readTemperature()
 
     float temperature = 0;
     sensor->getTemperature(&temperature);
-
     return temperature;
 }
 
@@ -76,7 +75,6 @@ float readHumidity()
 
     float humidity = 0;
     sensor->getHumidity(&humidity);
-
     return humidity;
 }
 
