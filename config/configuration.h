@@ -9,4 +9,4 @@
 
 #define TEMPERATURE_ALERT 30
 
-#define HUMIDITY_ALERT 45
+#define HUMIDITY_ALERT 42
