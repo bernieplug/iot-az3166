@@ -1,6 +1,6 @@
 
 {
-    "configurations": [
+       "configurations": [
         {
             "name": "Win32",
             "includePath": [
